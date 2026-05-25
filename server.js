@@ -5,6 +5,7 @@ const path = require("path");
 const userRoutes = require("./routes/userRouter");
 const logger = require("./middleware/logger");
 const errorHandler = require("./middleware/errorHandler");
+
 dotenv.config();
 
 const app = express();
