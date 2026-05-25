@@ -26,6 +26,7 @@ app.get("/api", (req, res)=>{
 app.use("/user", userRoutes);
 
 // Error Handler Middleware
+app.use(errorHandler);
 
 
 const PORT = process.env.PORT || 5000;
