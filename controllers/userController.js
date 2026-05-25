@@ -9,6 +9,13 @@ const createUser = (req, res, next)=>{
             error.statusCode = 400;
             return next(error);
         }
+        res.status(201).json({
+            success: true,
+            message: `Hello, ${name}!`,
+            user: {
+                name, email,
+            },
+        })
 
     }catch(error){
 
