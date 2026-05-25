@@ -35,4 +35,4 @@ const getUserProfile = (req, res)=> {
 module.exports = {
     createUser,
     getUserProfile,
-}
+};
