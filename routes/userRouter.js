@@ -7,3 +7,5 @@ const router = express.Router();
 router.post("/", createUser);
 
 router.get("/:id", getUserProfile);
+
+module.exports = router;
