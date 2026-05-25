@@ -21,3 +21,9 @@ const createUser = (req, res, next)=>{
         next(error)
     }
 };
+
+// GET /user/:id
+
+const getUserProfile = (req, res)=> {
+    const {id} = req.params;
+}
