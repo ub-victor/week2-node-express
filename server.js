@@ -23,6 +23,7 @@ app.get("/api", (req, res)=>{
 })
 
 // Route
+app.use("/user", userRoutes);
 
 // Error Handler Middleware
 
