@@ -31,3 +31,8 @@ const getUserProfile = (req, res)=> {
         message: `User ${id} profile`,
     });
 };
+
+module.exports = {
+    createUser,
+    getUserProfile,
+}
