@@ -17,3 +17,5 @@ app.use(express.static(path.join(__dirname, "public")));
 app.get("/api", (req, res)=>{
     res.send("My Week 2 API!");
 })
+
+// Route
