@@ -9,3 +9,6 @@ const app = express();
 
 // Middleware
 app.use(express.json());
+
+// serve static HTMML
+app.use(express.static(path.join(__dirname, "public")))
