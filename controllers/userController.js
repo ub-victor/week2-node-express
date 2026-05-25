@@ -26,4 +26,8 @@ const createUser = (req, res, next)=>{
 
 const getUserProfile = (req, res)=> {
     const {id} = req.params;
-}
+    res.json({
+        success: true,
+        message: `User ${id} profile`,
+    });
+};
