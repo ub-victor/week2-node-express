@@ -21,3 +21,6 @@ app.get("/api", (req, res)=>{
 // Route
 
 // Error Handler Middleware
+
+
+const PORT = process.env.PORT || 5000;
