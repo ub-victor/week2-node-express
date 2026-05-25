@@ -11,4 +11,9 @@ const app = express();
 app.use(express.json());
 
 // serve static HTMML
-app.use(express.static(path.join(__dirname, "public")))
+app.use(express.static(path.join(__dirname, "public")));
+
+//Root Route
+app.get("/api", (req, res)=>{
+    res.send("My Week 2 API!");
+})
