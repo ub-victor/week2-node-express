@@ -18,6 +18,6 @@ const createUser = (req, res, next)=>{
         })
 
     }catch(error){
-
+        next(error)
     }
 }
